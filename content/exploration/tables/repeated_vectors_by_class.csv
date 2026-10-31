@@ -1,0 +1,3 @@
+class,all_records,distinct_feature_label_pairs,repeated_beyond_first
+Normal,93000,77873,15127
+DoS,16353,4635,11718

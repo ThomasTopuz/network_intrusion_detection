@@ -1,0 +1,36 @@
+{
+  "input": "content/normal_dos.csv",
+  "sha256": "d981eaa5642e95e27593754c4e8fbaf424578f6e93cf9a53e845cc5f448e92cf",
+  "rows": 109353,
+  "features": [
+    "proto",
+    "service",
+    "state",
+    "dur",
+    "spkts",
+    "dpkts",
+    "sbytes",
+    "dbytes",
+    "rate",
+    "sload",
+    "dload",
+    "sinpkt",
+    "dinpkt"
+  ],
+  "target": "is_anomaly",
+  "class_counts": {
+    "0": 93000,
+    "1": 16353
+  },
+  "random_seed": 42,
+  "pairplot_records_per_class": 2000,
+  "no_split": true,
+  "no_model_fitting": true,
+  "versions": {
+    "python": "3.14.0",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  }
+}

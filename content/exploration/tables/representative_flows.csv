@@ -1,0 +1,7 @@
+case,csv_row_index,proto,service,state,dur,spkts,dpkts,sbytes,dbytes,rate,sload,dload,sinpkt,dinpkt,is_anomaly
+"HTTP FIN, Normal: rate nearest class/context median",88854,tcp,http,FIN,0.667541,10,10,794,1154,28.46267,8568.761719,12451.66895,74.171222,67.203336,0
+"HTTP FIN, DoS: rate nearest class/context median",59014,tcp,http,FIN,0.523821,14,8,7548,3100,40.090031,107044.2031,41434.0,40.293922,59.690145,1
+Normal: largest destination byte count,41980,tcp,http,FIN,15.202358,260,1716,11564,2249492,129.914055,6062.217285,1183070.125,58.696362,8.832738,0
+Normal UDP: highest rate with no destination packets,17302,udp,dns,INT,1e-06,2,0,156,0,1000000.003,624000000.0,0.0,0.001,0.0,0
+"Identical predictors, Normal label",42775,udp,-,INT,9e-06,2,0,78,0,111111.1072,34666664.0,0.0,0.009,0.0,0
+"Identical predictors, DoS label",61914,udp,-,INT,9e-06,2,0,78,0,111111.1072,34666664.0,0.0,0.009,0.0,1

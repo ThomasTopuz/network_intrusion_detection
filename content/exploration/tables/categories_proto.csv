@@ -1,0 +1,134 @@
+value,Normal,DoS,total,DoS_share_pct,meaning,caution,interpretation_status
+tcp,66969,3336,70305,4.745039470876893,"Transmission Control Protocol: reliable, connection-oriented transport; acknowledgments, setup and termination matter.","Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+udp,22019,527,22546,2.337443448948816,User Datagram Protocol: datagrams without a TCP-style connection handshake; legitimate request/response and one-way traffic both occur.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+unas,0,5246,5246,100.0,Exporter fallback when a numeric IP protocol has no named entry in its table (unassigned/unnamed to that exporter).,Not a known application protocol and not proof of an attack; several numeric values can collapse into this label.,exporter fallback
+arp,3846,0,3846,0.0,"Address Resolution Protocol: maps local IPv4 addresses to link-layer addresses; this is a link-layer protocol, not an IP Protocol-field number.","Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ospf,102,944,1046,90.24856596558317,Open Shortest Path First: a routing protocol used by routers to exchange topology information.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+sctp,0,426,426,100.0,Stream Control Transmission Protocol: message-oriented transport supporting associations and multiple streams.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+any,0,132,132,100.0,"Exporter label shared by numbers 61, 63 and 68: host-internal, local-network or distributed-file-system protocol allocations.",The textual category merges several numeric identifiers; it is not a wildcard for arbitrary normal traffic.,ambiguous exporter label
+gre,0,107,107,100.0,Generic Routing Encapsulation: carries another protocol inside an IP tunnel.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+rsvp,0,88,88,100.0,Reservation Protocol / RSVP-E2E-IGNORE,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ipv6,0,84,84,100.0,IPv6 encapsulation: an IPv6 packet carried as the next protocol; this label alone does not describe all native IPv6 traffic.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+sep,0,83,83,100.0,Historical Sequential Exchange Protocol label at number 33; the current registry names number 33 DCCP. The legacy label is preserved rather than silently relabeled.,Historical label; do not assume the observed record is modern DCCP.,legacy alias
+swipe,0,80,80,100.0,IP with Encryption,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+pim,0,80,80,100.0,Protocol Independent Multicast: router communication for multicast routing.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+mobile,0,80,80,100.0,Minimal IPv4 Encapsulation,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+sun-nd,0,80,80,100.0,SUN ND PROTOCOL-Temporary,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+igmp,48,0,48,0.0,Internet Group Management Protocol: manages IPv4 multicast group membership.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+pvp,0,44,44,100.0,Packet Video Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+qnx,0,44,44,100.0,QNX: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+3pc,0,44,44,100.0,Third Party Connect Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+rdp,0,44,44,100.0,Reliable Data Protocol. This IP protocol label does not mean Windows Remote Desktop Protocol.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+sat-expak,0,44,44,100.0,SATNET and Backroom EXPAK,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+sat-mon,0,44,44,100.0,SATNET Monitoring: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+sccopmce,0,44,44,100.0,SSCOPMCE: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+rvd,0,44,44,100.0,MIT Remote Virtual Disk Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+prm,0,44,44,100.0,Packet Radio Measurement,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+pup,0,44,44,100.0,PUP: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ptp,0,44,44,100.0,Performance Transparency Protocol. This label does not mean IEEE 1588 Precision Time Protocol.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+pri-enc,0,44,44,100.0,any private encryption scheme,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+pnni,0,44,44,100.0,PNNI over IP,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+pipe,0,44,44,100.0,Private IP Encapsulation within IP,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+pgm,0,44,44,100.0,PGM Reliable Transport Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+nvp,0,44,44,100.0,Network Voice Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+nsfnet-igp,0,44,44,100.0,NSFNET-IGP: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+netblt,0,44,44,100.0,Bulk Data Transfer Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+narp,0,44,44,100.0,NBMA Address Resolution Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+mux,0,44,44,100.0,Multiplexing: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+mtp,0,44,44,100.0,Multicast Transport Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+scps,0,44,44,100.0,SCPS: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+sm,0,44,44,100.0,Simple Multicast Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+sdrp,0,44,44,100.0,Source Demand Routing Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+trunk-2,0,44,44,100.0,Trunk-2: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+xtp,0,44,44,100.0,XTP: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+xns-idp,0,44,44,100.0,XEROX NS IDP,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+xnet,0,44,44,100.0,Cross Net Debugger,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+wsn,0,44,44,100.0,Wang Span Network,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+wb-mon,0,44,44,100.0,WIDEBAND Monitoring: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+wb-expak,0,44,44,100.0,WIDEBAND EXPAK: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+vrrp,0,44,44,100.0,Virtual Router Redundancy Protocol: coordinates redundant routers serving a shared virtual-router role.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+vmtp,0,44,44,100.0,VMTP: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+visa,0,44,44,100.0,VISA Protocol: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+vines,0,44,44,100.0,VINES: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+uti,0,44,44,100.0,UTI: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ttp,0,44,44,100.0,Internet Protocol Traffic Manager,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+trunk-1,0,44,44,100.0,Trunk-1: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+secure-vmtp,0,44,44,100.0,SECURE-VMTP: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+tp++,0,44,44,100.0,TP++ Transport Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+tlsp,0,44,44,100.0,Transport Layer Security Protocol using Kryptonet key management,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+tcf,0,44,44,100.0,TCF: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+stp,0,44,44,100.0,Schedule Transfer Protocol. This IP protocol label does not mean Ethernet Spanning Tree Protocol.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+st2,0,44,44,100.0,Stream: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+srp,0,44,44,100.0,SpectraLink Radio Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+sps,0,44,44,100.0,Secure Packet Shield,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+sprite-rpc,0,44,44,100.0,Sprite RPC Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+snp,0,44,44,100.0,Sitara Networks Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+smp,0,44,44,100.0,Simple Message Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+mhrp,0,44,44,100.0,Historical Mobile Host Routing Protocol label at number 48; the current registry names this slot Dynamic Source Routing (DSR).,Historical naming differs from the current registry.,legacy alias
+skip,0,44,44,100.0,SKIP: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+micp,0,44,44,100.0,Mobile Internetworking Control Pro.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+leaf-2,0,44,44,100.0,Leaf-2: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+mfe-nsp,0,44,44,100.0,MFE Network Services Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+merit-inp,0,44,44,100.0,MERIT Internodal Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+hmp,0,44,44,100.0,Host Monitoring: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+gmtp,0,44,44,100.0,GMTP: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ggp,0,44,44,100.0,Gateway-to-Gateway: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+fire,0,44,44,100.0,FIRE: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+fc,0,44,44,100.0,Fibre Channel: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+etherip,0,44,44,100.0,Ethernet-within-IP encapsulation.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+encap,0,44,44,100.0,Encapsulation Header: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+emcon,0,44,44,100.0,EMCON: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+eigrp,0,44,44,100.0,"Enhanced Interior Gateway Routing Protocol: a routing protocol, not end-user application traffic.","Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+egp,0,44,44,100.0,Exterior Gateway Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+dgp,0,44,44,100.0,Dissimilar Gateway Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ddx,0,44,44,100.0,D-II Data Exchange (DDX),"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ddp,0,44,44,100.0,Datagram Delivery Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+dcn,0,44,44,100.0,DCN Measurement Subsystems,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+crudp,0,44,44,100.0,Combat Radio User Datagram,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+crtp,0,44,44,100.0,Combat Radio Transport Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+cpnx,0,44,44,100.0,Computer Protocol Network Executive,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+cphb,0,44,44,100.0,Computer Protocol Heart Beat,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+compaq-peer,0,44,44,100.0,Compaq Peer Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+chaos,0,44,44,100.0,Chaos: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+cftp,0,44,44,100.0,CFTP: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+cbt,0,44,44,100.0,CBT: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+br-sat-mon,0,44,44,100.0,Backroom SATNET Monitoring,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+bna,0,44,44,100.0,BNA: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+bbn-rcc,0,44,44,100.0,BBN RCC Monitoring,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ax.25,0,44,44,100.0,AX.25 Frames: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+aris,0,44,44,100.0,ARIS: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+argus,0,44,44,100.0,Historical registered IP protocol ARGUS (number 13). Do not infer that this flow is an Argus monitoring-tool record.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+aes-sp3-d,0,44,44,100.0,Historical AES Security Protocol 3-D label at number 96; the current registry uses SCC-SP (Semaphore Communications Security Protocol).,"This is an old protocol name, not proof of contemporary AES-encrypted traffic.",legacy alias
+i-nlsp,0,44,44,100.0,Integrated Net Layer Security TUBA,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+iatp,0,44,44,100.0,Interactive Agent Transfer Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ib,0,44,44,100.0,"Exporter name at number 253, a registry slot for experimentation/testing.",The retrieved mapping does not establish an InfiniBand interpretation; keep the exporter token and its uncertainty.,exporter alias
+ipv6-frag,0,44,44,100.0,An IPv6 fragmentation extension-header identifier.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+a/n,0,44,44,100.0,Active Networks: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+leaf-1,0,44,44,100.0,Leaf-1: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+larp,0,44,44,100.0,Locus Address Resolution Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+l2tp,0,44,44,100.0,Layer Two Tunneling Protocol: transports layer-two traffic through a tunnel.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+kryptolan,0,44,44,100.0,Kryptolan: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+iso-tp4,0,44,44,100.0,ISO Transport Protocol Class 4,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+iso-ip,0,44,44,100.0,ISO Internet Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+isis,0,44,44,100.0,ISIS over IPv4,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+irtp,0,44,44,100.0,Internet Reliable Transaction,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ipx-n-ip,0,44,44,100.0,IPX in IP,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ipv6-route,0,44,44,100.0,An IPv6 routing extension-header identifier.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ipv6-opts,0,44,44,100.0,IPv6 destination-options extension-header identifier.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ipv6-no,0,44,44,100.0,IPv6 No Next Header identifier: indicates no following next-header payload.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ippc,0,44,44,100.0,Internet Pluribus Packet Core,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ipnip,0,44,44,100.0,"Legacy exporter name for protocol number 4, currently named IPv4 encapsulation (IPv4 carried inside IP).","Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+iplt,0,44,44,100.0,IPLT: historical/special-purpose registered protocol; the registry supplies little descriptive detail.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ipip,0,44,44,100.0,IP-within-IP encapsulation; a tunneling identifier distinct from the exporter label ipnip.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ipcv,0,44,44,100.0,Internet Packet Core Utility,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ipcomp,0,44,44,100.0,IP Payload Compression Protocol: compresses IP payload data.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ip,0,44,44,100.0,Legacy exporter label at IP number 0. The current registry assigns 0 to IPv6 Hop-by-Hop Options (HOPOPT); the text ip alone does not establish ordinary IPv4 traffic.,Historical exporter naming; packet-level interpretation requires original protocol numbers or capture.,legacy alias
+il,0,44,44,100.0,IL Transport Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+igp,0,44,44,100.0,any private interior gateway (used by Cisco for their IGRP),"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+ifmp,0,44,44,100.0,Ipsilon Flow Management Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+idrp,0,44,44,100.0,Inter-Domain Routing Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+idpr-cmtp,0,44,44,100.0,IDPR Control Message Transport Proto,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+idpr,0,44,44,100.0,Inter-Domain Policy Routing Protocol,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+zero,0,44,44,100.0,Exporter name at number 114: allocation for any 0-hop protocol.,"The word zero is a protocol category, not a numeric missing value or zero packets.",exporter alias
+icmp,15,0,15,0.0,"Internet Control Message Protocol: IP diagnostics and error reporting, including echo requests and unreachable messages.","Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias
+rtp,1,0,1,0.0,Real-time Transport Protocol: commonly carries real-time media. This observed label is outside the retrieved IP-number name table; no numeric IP mapping is asserted.,"Protocol identity is context, not an intrinsic normal/attack decision.",registry name / exporter alias

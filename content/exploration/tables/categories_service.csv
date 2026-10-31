@@ -1,0 +1,14 @@
+value,Normal,DoS,total,DoS_share_pct,meaning,caution,interpretation_status
+-,63887,13845,77732,17.811197447640613,No identified/provided service annotation.,Treat as an explicit unidentified-service category; it does not prove no application or malicious behavior.,placeholder interpretation
+http,9361,1709,11070,15.438121047877145,Hypertext Transfer Protocol: web requests and responses.,A response can be much larger than its request; volume alone is not a DoS label.,service meaning
+dns,10561,147,10708,1.3728053791557713,Domain Name System: resolves domain names and other DNS records.,Small requests and larger responses can be legitimate; direction and query type matter.,service meaning
+ftp-data,3501,14,3515,0.39829302987197723,File Transfer Protocol data channel: carries file contents.,Large byte counts can represent a legitimate transfer.,service meaning
+smtp,2214,402,2616,15.36697247706422,Simple Mail Transfer Protocol: sends and relays email.,Payload sizes vary with message content and attachments.,service meaning
+ftp,1976,73,2049,3.5627135187896535,"File Transfer Protocol control channel: commands, login and transfer negotiation.",Separate from the file-content data channel.,service meaning
+ssh,1491,0,1491,0.0,Secure Shell: encrypted remote administration and related secure transfers.,Encryption and long sessions can be legitimate; this tag alone is not evidence of an attack.,service meaning
+pop3,4,87,91,95.6043956043956,Post Office Protocol version 3: retrieves email from a server.,Message retrieval can create asymmetric byte volumes.,service meaning
+dhcp,0,42,42,100.0,Dynamic Host Configuration Protocol: assigns hosts network configuration such as IP addresses.,Configuration traffic has different expectations from web or bulk-transfer traffic.,service meaning
+snmp,1,19,20,95.0,Simple Network Management Protocol: device monitoring and management.,Queries and notifications have different direction/response expectations.,service meaning
+ssl,0,8,8,100.0,Exporter service label for SSL/TLS-associated encrypted communication.,A historical category name; it does not identify the negotiated version or prove obsolete SSL is in use.,service meaning
+irc,0,7,7,100.0,Internet Relay Chat: client/server messaging.,"A service label identifies communication type, not whether its use is legitimate.",service meaning
+radius,4,0,4,0.0,"Remote Authentication Dial-In User Service: network authentication, authorization and accounting.",Often infrastructure access-control traffic; do not infer user intent from the service name.,service meaning

@@ -1,0 +1,9 @@
+protocol,class,flows,no_destination_pct
+tcp,Normal,66969,3.7524824918992365
+tcp,DoS,3336,0.0
+udp,Normal,22019,29.406421726690585
+udp,DoS,527,75.90132827324479
+ospf,Normal,102,100.0
+ospf,DoS,944,100.0
+arp,Normal,3846,96.07384295371814
+arp,DoS,0,

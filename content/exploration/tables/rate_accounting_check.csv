@@ -1,0 +1,3 @@
+candidate_formula,positive_duration_rows,matching_pct
+(spkts + dpkts) / dur,105799,0.03875272923184529
+(spkts + dpkts - 1) / dur,105799,99.83175644382271

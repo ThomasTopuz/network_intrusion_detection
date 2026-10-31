@@ -1,0 +1,10 @@
+# Data loading and exploration notebooks
+numpy
+pandas
+matplotlib
+
+# Local notebook interface and Python kernel
+jupyterlab
+ipykernel
+
+# pathlib and urllib.request are part of Python's standard library.

@@ -1,0 +1,11 @@
+value,Normal,DoS,total,DoS_share_pct,meaning,caution,interpretation_status
+FIN,61347,3237,64584,5.01207729468599,TCP finish/termination observed (FIN-related status).,Not proof of benign traffic or a complete clean four-way close; interpret with packet directions and other evidence.,documented
+INT,10200,12439,22639,54.94500640487654,Initial transaction status; often used for connectionless traffic or flows without evidence of an established exchange.,"Not a universal synonym for failed TCP handshake, and not intrinsically anomalous.",documented
+CON,18732,407,19139,2.126547886514447,Connected/continuing transaction: protocol-dependent evidence of ongoing or bidirectional activity.,"For connectionless traffic, do not read this as a TCP-style connection.",documented
+REQ,2632,268,2900,9.241379310344827,"Requested/initial request status: connection request for TCP, with protocol-dependent request meaning elsewhere.",Not evidence by itself that the request was malicious or permanently unanswered.,documented
+RST,72,2,74,2.7027027027027026,TCP reset observed: a connection was reset/refused/aborted.,Resets also occur legitimately; this alone does not prove a DoS attack.,documented
+ECO,12,0,12,0.0,"ICMP Echo Request, commonly associated with ping.",An ICMP message type rather than a TCP connection state.,documented
+ACC,2,0,2,0.0,"Accepted/request answered: for TCP, a setup response has been seen; for applicable non-TCP traffic, a request/response exchange may be recorded.",Does not by itself prove a completed TCP handshake or successful application session.,documented
+PAR,1,0,1,0.0,ICMP Parameter Problem: a problem was reported in an IP header/parameter.,An ICMP error classification rather than partial TCP connection.,documented
+URN,1,0,1,0.0,ICMP destination network unreachable.,Reachability error; not a generic label for every unreachable condition.,documented
+no,1,0,1,0.0,Unresolved literal exporter/dataset state token.,One Normal ICMP row is present in the supplied filtered data. Its precise meaning is not established by the retrieved documentation; preserve it and do not invent an expansion.,unresolved

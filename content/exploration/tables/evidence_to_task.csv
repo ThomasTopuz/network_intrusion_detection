@@ -1,0 +1,8 @@
+Finding,Meaning,Task implication
+"109,353 flows; DoS share 15.0%","The majority is Normal, but this mixture is not a deployment prevalence estimate.",Future alert burden depends on real operating prevalence; do not use accuracy alone.
+77.7% of DoS and 13.8% of Normal have no destination packets,Asymmetry is associated with the label but also occurs legitimately.,Interpret directional features within protocol context.
+"Median rate is higher for DoS globally, lower for DoS within TCP",The mix of traffic contexts changes the apparent direction of an association.,Avoid defining normality by one global high-rate rule.
+126 protocols have no Normal examples; 70.6% of DoS rows use them,Normal coverage is incomplete and category shortcuts are possible.,Separate unsupported-category novelty from behavior within shared protocols.
+24 identical predictor vectors have both labels,The selected representation does not fully determine attack annotation.,Acknowledge irreducible ambiguity in these records; do not promise perfect separation.
+Repeated vectors substantially change the apparent class proportions,Frequency-weighted and distinct-behavior views answer different questions.,Document repetition and consider it in the later experimental design.
+"No timestamps, host identifiers, server metrics or application payloads in the selected features",The view lacks cross-flow relationships and direct evidence of disruption.,"Scope the task to recorded flow-level suspicious behavior, not attack-campaign or outage detection."

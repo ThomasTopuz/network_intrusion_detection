@@ -1,0 +1,3 @@
+class,destination_packet_fraction,destination_byte_fraction,source_bytes_per_packet,destination_bytes_per_packet,no_destination_packets
+Normal,0,0,0,12849,0
+DoS,0,0,0,12707,0
